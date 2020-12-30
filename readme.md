@@ -36,4 +36,22 @@ Blockchain must be in the same network as rasberry pi.
 
 ## Demo
 
++ Led with blockchain :
 
+Access at url : `http://<host-ip>:8484/led`.  
+
+![](img/2020-12-30-10-33-58.png)
+
++ Led without blockchain :
+
+Access at url : `http://<host-ip>:8484/led_normal`.  
+
+![](img/2020-12-30-10-34-41.png)
+
++ Blockchain validation :
+
+Access at url : `http://<host-ip>:8484`.  
+
+![](img/2020-12-30-10-35-26.png)
+
+![](img/2020-12-30-10-35-36.png)
