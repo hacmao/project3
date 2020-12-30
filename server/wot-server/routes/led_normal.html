@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Led</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+    <h1>Led without blockchain</h1>
+    <div class="table-responsive">
+    </div>
+    <div>
+        <h2>Led status</h2>
+	<br>
+        <pre id='status'></pre> <br><br>
+	<a href=" # " onclick="getLedStatus()" class="btn btn-primary ">GET</a>
+        <a href=" # " onclick="setLed(this.name)" class="btn btn-primary " name="1">ON</a>
+	<a href=" # " onclick="setLed(this.name)" class="btn btn-primary " name="0">OFF</a>
+		
+	<br><br>
+	<h2>Total time </h2>
+	<pre id='result'></pre> <br><br>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js "></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js "></script>
+<script src="js/md5.min.js"></script>
+<script src="js/led_normal.js"></script>
+
+
+</html>
