@@ -33,3 +33,7 @@ If you are already install all packages for nodejs, simply run `./run.sh`.
 Install Ganache.  
 Add new project with `truffle-config.js`.  
 Blockchain must be in the same network as rasberry pi.
+
+## Demo
+
+
