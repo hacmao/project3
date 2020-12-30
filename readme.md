@@ -8,19 +8,26 @@ This is repository for project3 "IOT with blockchain".
 
 ### Rasberry Pi 3B+
 
-There are 2 components to run on rasberry pi :  
+There are 3 components to run on rasberry pi :  
  + sensors : 
  ```
  npm install
  node blink.js
  ```
+  Led connects with GPIO 26.
  + server:
  ```
  cd server/wot-server
  npm install
  node wot-servers.js
  ```
- 
+ + mqtt-server :
+ ```
+ mosquitto -p 1028 
+ ```
+
+If you are already install all packages for nodejs, simply run `./run.sh`.  
+
 ### Run blockchain 
 
 Install Ganache.  
